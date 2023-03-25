@@ -1,30 +1,4 @@
 # Coding Challenge
-Classes have been added to support the two new types: Compensation and Reporting Structure.
-
-For the Compensation type:
-```
-com.mindex.challenge.controller.CompensationController
-com.mindex.challenge.dao.CompensationRepository
-com.mindex.challenge.data.Compensation
-com.mindex.challenge.service.CompensationService
-com.mindex.challenge.service.impl.CompensationServiceImpl
-```
-
-For the Reporting Structure type:
-```
-com.mindex.challenge.controller.ReportingStructureController
-com.mindex.challenge.data.ReportingStructure
-com.mindex.challenge.service.ReportingStructureService
-com.mindex.challenge.service.impl.ReportingStructureServiceImpl
-```
-
-In addition, new test classes have also been created:
-```
-com.mindex.challenge.service.impl.CompensationServiceImplTest
-com.mindex.challenge.service.impl.ReportingStructureServiceImplTest
-```
-
-(Continuing original text below)
 ## What's Provided
 A simple [Spring Boot](https://projects.spring.io/spring-boot/) web application has been created and bootstrapped 
 with data. The application contains information about all employees at a company. On application start-up, an in-memory 
